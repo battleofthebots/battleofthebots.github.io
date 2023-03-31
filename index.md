@@ -7,6 +7,7 @@ The Office of the Under Secretary of Defense for Research and Engineering ([OUSD
 The goals of these "micro-challenges" are to produce a community contributed set of forensic tools or unique data sets that can be transitioned back into one's day job, academic research, etc...
 
 The next event is Battle of The Bots, and will be hosted at [BSides Charm](https://bsidescharm.org), April 29th and 30th.
+Have a question? Join our Discord [here](https://www.discord.gg/PJEHwFdzK)
 
 # Battle of The Bots Overview
 Battle of The Bots (BOTBs) is a reverse engineering and capability development competition where the competitor is tasked to reverse engineer custom services to identify and exploit vulnerabilities in said services.
