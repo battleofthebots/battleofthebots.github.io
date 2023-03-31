@@ -44,7 +44,7 @@ Vulnerable services are written in a mix of interpreted and compiled languages a
 * A) Teams can be up to 5 individuals.
 
 * Q) I have a question, where can I ask?
-* A) Discord link coming soon.
+* A) Join our Discord [here](https://www.discord.gg/PJEHwFdzK)
 
 * Q) I have found a bug/vulnerability/security issue!
 * A) Please let our judges know as soon as possible via a DM.
