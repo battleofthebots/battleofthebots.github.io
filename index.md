@@ -10,10 +10,13 @@ The next event is Battle of The Bots, and will be hosted at [DEF CON]([https://b
 Have a question leading up to DEF CON? Join our Discord [here](https://www.discord.gg/PJEHwFFdzk). During the event we will be using the official DEF CON discord.
 
 # Battle of The Bots Overview
-Battle of The Bots (BOTB) is a reverse engineering and capability development competition where the competitor is tasked to identify and exploit custom and known vulnerabilities in a variety of services.
-Once access is gained to the vulnerable systems, the competitor's bot must worm through the network pwning new services and planting your flag.
+Battle of The Bots (BOTB) is a reverse engineering and capability development competition where competitors are is tasked with identifing and exploiting custom and known vulnerabilities in a variety of services. Competitors must then use the capabilities and exploits they have developed to gain access and pivot through  branching networks that comprise a "map."
 
-An upload portal will be provided to drop and unleash your worm into an offline network to compromise a group of services. Each group of services is a referred to as a "map". 
+### Player Versus Environment (PVE)
+Starting from the initial point of compromise, competitors will discover new vulnerable services as they uncover more of each map, along with the information necessary to locally recreate the services seen in the environment so that they can develop and test their exploits.
+Competitors will then take these exploits and incorporate them into a worm that can spread itself through a network, pwning new services and planting flags along the way.
+When they are confident their bots can successfully pwn the services, competitors can submit their worm to an upload portal, which will drop and unleash their worm onto an offline network where it can compromise the services running in the environment.
+Competitors score points as they solve new challenges and conquer each map.
 
 ## Maps
 
@@ -27,7 +30,6 @@ Modern services with modern tech-stacks, CVE City will test your ability to writ
 Spacepunk is a small but challenging map meant to test your pwning skills. Craft exploits and shellcode on custom binaries to hack your way through time!
 
 ## Bots
-
 Each team must build a bot to automatically exploit given services and then propogate onto the next host. The bot must be completely self-contained and work offline. The environment will include all the popular python libraries and useful commandline utilities needed for the competition.
 
 A list of what is installed can be found in the [BOTB Base Image Repo](https://github.com/battleofthebots/botb-base-image).
