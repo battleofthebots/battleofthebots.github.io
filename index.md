@@ -18,10 +18,36 @@ Competitors will then take these exploits and incorporate them into a worm that 
 When they are confident their bots can successfully pwn the services, competitors can submit their worm to an upload portal, which will drop and unleash their worm onto an offline network where it can compromise the services running in the environment.
 Competitors score points as they solve new challenges and conquer each map.
 
+## How to Play - DEF CON Edition
+* Select a challenge from the map.
+
+![./imgs/viewmaps.png](./imgs/viewmaps.png)
+
+2. Download the associated challenge files to solve the challenge locally.
+Our [base Docker image](https://github.com/battleofthebots/botb-base-image) contains numerous libraries to enable your success in this competition.
+
+3. Identify the challenge hostname and associated port to pwn. The ports match whatever the challenge binary listens on locally.
+
+4. Once your bot is good to go, submit it to **init** to start your chain of exploits!
+
+*Upon access to a new service, you need to spread your bot from the previous container. An example would be compromising `WOPR` and then downloading your bot from the `init` container via a Python simple http server.*
+
+
+![./imgs/howtoplay.png](./imgs/howtoplay.png)
+
+
+* To get logs from the execution environment, you **must** write data  to `/flags/flag.txt`.
+Any data written to `/flags/flag.txt` can be obtained post bot execution by downloading the zip file.
+
+![./imgs/downloadfiles.png](./imgs/downloadfiles.png)
+
+
+* Ensure that "#!/usr/bin/python3" or "#!/bin/bash" is specified at the top of your Python/Bash bots!
+
 ## Maps
 
 ### Mainframe Madness
-Do you miss the good ol' days of hacking when everything was just text flying around the unencrypted web? Then Mainframe Madeness is the map for you. Pwn everything from basic backdoors to telnet games to get your bot through the "mainframe".
+Do you miss the good ol' days of hacking when everything was just text flying around the unencrypted web? Then Mainframe Madness is the map for you. Pwn everything from basic backdoors to telnet games to get your bot through the "mainframe".
 
 ### CVE City
 Modern services with modern tech-stacks, CVE City will test your ability to write you own POCs for basic CVEs and common exploitation techniques.
@@ -30,7 +56,7 @@ Modern services with modern tech-stacks, CVE City will test your ability to writ
 Spacepunk is a small but challenging map meant to test your pwning skills. Craft exploits and shellcode on custom binaries to hack your way through time!
 
 ## Bots
-Each team must build a bot to automatically exploit given services and then propogate onto the next host. The bot must be completely self-contained and work offline. The environment will include all the popular python libraries and useful commandline utilities needed for the competition.
+Each team must build a bot to automatically exploit given services and then propagate onto the next host. The bot must be completely self-contained and work offline. The environment will include all the popular python libraries and useful command line utilities needed for the competition.
 
 A list of what is installed can be found in the [BOTB Base Image Repo](https://github.com/battleofthebots/botb-base-image).
 
@@ -57,6 +83,9 @@ In person and Discord support is guaranteed daily throughout core DEF CON compet
 7. Do not use offensive language or language with the intent of offending others.
 
 # FAQ
+* Q) My Python bot isn't working!
+* A) Ensure that "#!/usr/bin/python3" is specified at the top of the file.
+
 * Q) How large can teams be?
 * A) Teams can be up to 6 individuals.
 
@@ -74,5 +103,4 @@ In person and Discord support is guaranteed daily throughout core DEF CON compet
 
 ## Previous Events
 * [Ghidra Golf](https://ghidra.golf)
-* Battle of the Bots - BSIDES Charm
-
+* Battle of the Bots - BSides Charm
