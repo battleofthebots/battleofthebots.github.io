@@ -28,7 +28,9 @@ Our [base Docker image](https://github.com/battleofthebots/botb-base-image) cont
 
 3. Identify the challenge hostname and associated port to pwn. The ports match whatever the challenge binary listens on locally.
 
-4. Once your bot is good to go, submit it to **init** to start your chain of exploits!
+4. Once your bot is good to go, submit it to **init** to start your chain of exploits! 
+
+5. To score points, your bot **must write your team name to /flags/flag.txt** on the compromised machine.
 
 *Upon access to a new service, you need to spread your bot from the previous container. An example would be compromising `WOPR` and then downloading your bot from the `init` container via a Python simple http server.*
 
