@@ -9,6 +9,9 @@ The goals of these "micro-challenges" are to produce a community contributed set
 The next event is Battle of The Bots, and will be hosted at [DEF CON]([https://bsidescharm.org](https://defcon.org/)), August 10th through 13th, 2023.
 Have a question leading up to DEF CON? Join our Discord [here](https://www.discord.gg/PJEHwFFdzk). During the event we will be using the official DEF CON discord.
 
+
+**DEF CON Battle of The Bots is Live! [Click here](https://ctfd.battleofthebots.net) to join**
+
 # Battle of The Bots Overview
 Battle of The Bots (BOTB) is a reverse engineering and capability development competition where competitors are is tasked with identifing and exploiting custom and known vulnerabilities in a variety of services. Competitors must then use the capabilities and exploits they have developed to gain access and pivot through  branching networks that comprise a "map."
 
@@ -19,6 +22,7 @@ When they are confident their bots can successfully pwn the services, competitor
 Competitors score points as they solve new challenges and conquer each map.
 
 ## How to Play - DEF CON Edition
+
 * Select a challenge from the map.
 
 ![./imgs/viewmaps.png](./imgs/viewmaps.png)
@@ -30,7 +34,7 @@ Our [base Docker image](https://github.com/battleofthebots/botb-base-image) cont
 
 4. Once your bot is good to go, submit it to **init** to start your chain of exploits! 
 
-5. To score points, your bot **must write your team name to /flags/flag.txt** on the compromised machine.
+    5. To score points, your bot **must write your team name to /flags/flag.txt** on the compromised machine.
 
 *Upon access to a new service, you need to spread your bot from the previous container. An example would be compromising `WOPR` and then downloading your bot from the `init` container via a Python simple http server.*
 
