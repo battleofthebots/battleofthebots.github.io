@@ -13,7 +13,7 @@ Have a question leading up to DEF CON? Join our Discord [here](https://www.disco
 **DEF CON Battle of The Bots is Live! [Click here](https://ctfd.battleofthebots.net) to join**
 
 # Battle of The Bots Overview
-Battle of The Bots (BOTB) is a reverse engineering and capability development competition where competitors are is tasked with identifing and exploiting custom and known vulnerabilities in a variety of services. Competitors must then use the capabilities and exploits they have developed to gain access and pivot through  branching networks that comprise a "map."
+Battle of The Bots (BOTB) is a reverse engineering and capability development competition where competitors are tasked with identifing and exploiting custom and known vulnerabilities in a variety of services. Competitors must then use the capabilities and exploits they have developed to gain access and pivot through  branching networks that comprise a "map."
 
 ### Player Versus Environment (PVE)
 Starting from the initial point of compromise, competitors will discover new vulnerable services as they uncover more of each map, along with the information necessary to locally recreate the services seen in the environment so that they can develop and test their exploits.
