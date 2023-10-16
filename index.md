@@ -8,10 +8,14 @@ The Office of the Under Secretary of Defense for Research and Engineering ([OUSD
 # Battle of The Bots Overview
 Battle of The Bots (BOTB) is a reverse engineering and capability development competition where competitors are tasked with identifying and exploiting custom and known vulnerabilities in a variety of services. Competitors must then use the capabilities and exploits they have developed to gain access and pivot through  branching networks that comprise a "map."
 
+* CTF Challenges from DEF CON 31 can be found on the Battle of The Bots [public github repo](https://github.com/battleofthebots). 
+
 
 # Building Micro-CGC Events
 The Micro-CGC team wanted to publish a "lessons learned" document to help fellow CTF event planners.
 For a comprehensive breakdown on everything from "what's a good challenge" to vulnerability scanning the CTF environment itself, take a look [here](https://battleofthebots.net/building_micro_cgc_events.html).
+
+
 
 ## Previous Events
 * [Ghidra Golf](https://ghidra.golf)
