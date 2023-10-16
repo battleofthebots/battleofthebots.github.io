@@ -301,7 +301,7 @@ includes Redis, MySQL, the CTF application (a Python Flask app) and RabbitMQ for
 To ensure repeatability, all of the AWS resources shown in this section and in the Appendix were
 automatically deployed via Terraform, which is available within the Battle of The Bots GitHub organization’s repository (*coming soon*).
 
-The workflow is as follows, a competitor would login to ctfd.battleofthebots.net which was an Application
+The workflow is as follows, a competitor would login to ctfd.battleofthebots.net which led to an Application
 Load Balancer (ALB) that sat in front of three CTFd instances hosted on AWS’ Elastic Container Service
 (ECS). Leveraging round-robin load balancing and sticky-sessions, user requests were distributed across
 three different availability zones ensuring not one container would be overloaded with network traffic.
