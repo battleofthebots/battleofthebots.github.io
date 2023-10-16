@@ -299,7 +299,7 @@ twenty thousand individuals. To ensure Battle of The Bots executed without infra
 Micro-CGC team decided to leverage managed AWS services to host the core CTFd components. This
 includes Redis, MySQL, the CTF application (a Python Flask app) and RabbitMQ for custom integrations.
 To ensure repeatability, all of the AWS resources shown in this section and in the Appendix were
-automated via Terraform, which is available within the Battle of The Bots GitHub organization’s repository.
+automatically deployed via Terraform, which is available within the Battle of The Bots GitHub organization’s repository (*coming soon*).
 
 The workflow is as follows, a competitor would login to ctfd.battleofthebots.net which was an Application
 Load Balancer (ALB) that sat in front of three CTFd instances hosted on AWS’ Elastic Container Service
